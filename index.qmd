@@ -6,30 +6,25 @@ format: html
 <div style="max-width: 800px; margin-top: 3rem; margin-bottom: 4rem;">
 
 <p class="intro-saludo">Hola, mi nombre es</p>
-
 <div class="intro-nombre">Germán Sulca</div>
 
-<!-- 4 Iconos de Contacto Debajo de la Presentación -->
+<!-- 4 Iconos de Contacto justo debajo del nombre -->
 <div class="contacto-iconos">
-  <!-- LinkedIn -->
   <a href="https://www.linkedin.com/in/german-sulca" target="_blank" class="icono-item">
     <span class="fa-stack"><i class="fab fa-linkedin-in"></i></span>
     <span>LinkedIn</span>
   </a>
 
-  <!-- GitHub -->
   <a href="https://github.com/weemuk" target="_blank" class="icono-item">
     <span class="fa-stack"><i class="fab fa-github"></i></span>
     <span>GitHub</span>
   </a>
 
-  <!-- Mail -->
   <a href="mailto:germand.sulcap@gmail.com" class="icono-item">
     <span class="fa-stack"><i class="fas fa-envelope"></i></span>
     <span>germand.sulcap@gmail.com</span>
   </a>
 
-  <!-- Móvil -->
   <a href="tel:+447783381233" class="icono-item">
     <span class="fa-stack"><i class="fas fa-phone-alt"></i></span>
     <span>+44 7783 381233</span>
@@ -38,12 +33,12 @@ format: html
 
 <div class="intro-subtitulo">Desarrollo soluciones de movilidad basadas en datos</div>
 
-<p style="font-size: 1.1rem; max-width: 650px; margin-top: 1.5rem;">
+<p class="intro-descripcion">
 Ingeniero civil con especialización en planificación de transporte y medio ambiente. Cuento con 3 años de experiencia en el uso de herramientas para analizar datos de transporte complejos y transformarlos en tomas de decisiones eficientes.
 </p>
 
 <!-- Tira de herramientas -->
-<div style="font-family: monospace; font-size: 0.9rem; color: #64ffda; letter-spacing: 0.05em; line-height: 2;">
+<div style="font-family: monospace; font-size: 0.9rem; color: #64ffda; letter-spacing: 0.05em; line-height: 2; margin-bottom: 1.5rem;">
   VISSIM <span style="color: #8892b0; margin: 0 6px;">|</span> 
   VISUM <span style="color: #8892b0; margin: 0 6px;">|</span> 
   Aimsun <span style="color: #8892b0; margin: 0 6px;">|</span> 
@@ -53,7 +48,6 @@ Ingeniero civil con especialización en planificación de transporte y medio amb
   SQL <span style="color: #8892b0; margin: 0 6px;">|</span>
   CAD <span style="color: #8892b0; margin: 0 6px;">|</span> 
   Vehicle Tracking
-
 </div>
 
 <!-- Botones de CV y Presentación -->
@@ -61,6 +55,8 @@ Ingeniero civil con especialización en planificación de transporte y medio amb
   <a href="cv/cv_German_ES.pdf" target="_blank" class="btn-portfolio">CV Español (.pdf)</a>
   <a href="cv/cv_German_EN.pdf" target="_blank" class="btn-portfolio">CV Inglés (.pdf)</a>
   <a href="cv/Presentacion.pdf" target="_blank" class="btn-portfolio">Experiencia (.pdf)</a>
+</div>
+
 </div>
 
 # Proyectos de MSc Transport Planning and the Environment

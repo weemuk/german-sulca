@@ -24,7 +24,7 @@ a:hover {
   text-decoration: underline;
 }
 
-/* Barra superior y botones de LinkedIn, GitHub y Correo */
+/* Barra superior minimalista */
 .navbar {
   background-color: #0a192f !important;
   border-bottom: none;
@@ -34,21 +34,6 @@ a:hover {
 .navbar-brand {
   color: #64ffda !important;
   font-weight: bold;
-}
-
-.navbar-nav .nav-link {
-  color: #64ffda !important;
-  border: 1px solid #64ffda;
-  border-radius: 4px;
-  padding: 0.4rem 0.9rem !important;
-  margin-left: 0.75rem;
-  font-family: monospace;
-  font-size: 0.9rem;
-}
-
-.navbar-nav .nav-link:hover {
-  background-color: rgba(100, 255, 218, 0.1);
-  text-decoration: none;
 }
 
 /* Clases para el tamaño y color de la introducción */
@@ -64,14 +49,22 @@ a:hover {
   font-size: 4rem;
   font-weight: 800;
   line-height: 1.1;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
 }
 
 .intro-subtitulo {
   color: #8892b0;
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: 700;
   line-height: 1.2;
+  margin-top: 0;
+  margin-bottom: 0.75rem;
+}
+
+.intro-descripcion {
+  font-size: 1.1rem;
+  max-width: 650px;
+  margin-top: 0;
   margin-bottom: 1.5rem;
 }
 
@@ -100,8 +93,8 @@ a:hover {
   display: flex;
   flex-wrap: wrap;
   gap: 1.25rem;
-  margin-top: 1.5rem;
-  margin-bottom: 2.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
   align-items: center;
 }
 
