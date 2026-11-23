@@ -6,7 +6,7 @@ format: html
 <div style="max-width: 800px; margin-top: 3rem; margin-bottom: 4rem;">
 
 <p class="intro-saludo">Hola, mi nombre es</p>
-<div class="intro-nombre">German Sulca</div>
+<div class="intro-nombre">Germán Sulca</div>
 <div class="intro-subtitulo">Desarrollo soluciones de movilidad basadas en datos.</div>
 
 <p style="font-size: 1.1rem; max-width: 650px; margin-top: 1.5rem;">
