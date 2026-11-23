@@ -27,13 +27,14 @@ Ingeniero civil con especialización en planificación de transporte y medio amb
 
 </div>
 
-# 01. Curriculum Vitae | Resume
+<!-- Botones de CV y Presentación -->
+<div class="botones-fila">
+  <a href="cv/cv_German_ES.pdf" target="_blank" class="btn-portfolio">CV Español (.pdf)</a>
+  <a href="cv/cv_German_EN.pdf" target="_blank" class="btn-portfolio">CV Inglés (.pdf)</a>
+  <a href="cv/Presentacion.pdf" target="_blank" class="btn-portfolio">Presentación y Experiencia (.pdf)</a>
+</div>
 
-[English version (.pdf)](cv/cv_German_EN.pdf) | [Versión en español (.pdf)](cv/cv_German_ES.pdf)
-
-# [02. Experiencia Laboral y Académica Previa](cv/Presentacion.pdf)
-
-# 03. Módulos de MSc Transport Planning and the Environment
+# Proyectos de MSc Transport Planning and the Environment
 
 ## Transport Data Science
 
