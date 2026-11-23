@@ -13,6 +13,19 @@ format: html
 Ingeniero civil con especialización en planificación de transporte y medio ambiente. Cuento con 3 años de experiencia en el uso de herramientas para analizar datos de transporte complejos y transformarlos en tomas de decisiones eficientes.
 </p>
 
+<!-- Tira de herramientas -->
+<div style="font-family: monospace; font-size: 0.9rem; color: #64ffda; letter-spacing: 0.05em; line-height: 2;">
+  VISSIM <span style="color: #8892b0; margin: 0 6px;">|</span> 
+  VISUM <span style="color: #8892b0; margin: 0 6px;">|</span> 
+  Aimsun <span style="color: #8892b0; margin: 0 6px;">|</span> 
+  QGIS <span style="color: #8892b0; margin: 0 6px;">|</span>
+  R <span style="color: #8892b0; margin: 0 6px;">|</span> 
+  Python <span style="color: #8892b0; margin: 0 6px;">|</span> 
+  SQL <span style="color: #8892b0; margin: 0 6px;">|</span>
+  CAD <span style="color: #8892b0; margin: 0 6px;">|</span> 
+  Vehicle Tracking
+</div>
+
 </div>
 
 # 01. Curriculum Vitae | Resume
