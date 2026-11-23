@@ -35,7 +35,7 @@ format: html
     <span>+44 7783 381233</span>
   </a>
   
-<div class="intro-subtitulo">Desarrollo soluciones de movilidad basadas en datos
+<div class="intro-subtitulo">Desarrollo soluciones de movilidad basadas en datos</div>
 
 <p style="font-size: 1.1rem; max-width: 650px; margin-top: 1.5rem;">
 Ingeniero civil con especialización en planificación de transporte y medio ambiente. Cuento con 3 años de experiencia en el uso de herramientas para analizar datos de transporte complejos y transformarlos en tomas de decisiones eficientes.
