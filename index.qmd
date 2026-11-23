@@ -8,30 +8,30 @@ format: html
 <p class="intro-saludo">Hola, mi nombre es</p>
 <div class="intro-nombre">Germán Sulca</div>
 
-<!-- 4 Iconos de Contacto justo debajo del nombre -->
+<!-- Solo Iconos de Contacto justo debajo del nombre -->
 <div class="contacto-iconos">
-  <a href="https://www.linkedin.com/in/german-sulca" target="_blank" class="icono-item">
-    <span class="fa-stack"><i class="fab fa-linkedin-in"></i></span>
-    <span>LinkedIn</span>
+  <!-- LinkedIn -->
+  <a href="https://www.linkedin.com/in/german-sulca" target="_blank" class="icono-item" title="LinkedIn">
+    <i class="fab fa-linkedin-in"></i>
   </a>
 
-  <a href="https://github.com/weemuk" target="_blank" class="icono-item">
-    <span class="fa-stack"><i class="fab fa-github"></i></span>
-    <span>GitHub</span>
+  <!-- GitHub -->
+  <a href="https://github.com/weemuk" target="_blank" class="icono-item" title="GitHub">
+    <i class="fab fa-github"></i>
   </a>
 
-  <a href="mailto:germand.sulcap@gmail.com" class="icono-item">
-    <span class="fa-stack"><i class="fas fa-envelope"></i></span>
-    <span>germand.sulcap@gmail.com</span>
+  <!-- Mail -->
+  <a href="mailto:germand.sulcap@gmail.com" class="icono-item" title="Correo">
+    <i class="fas fa-envelope"></i>
   </a>
 
-  <a href="tel:+447783381233" class="icono-item">
-    <span class="fa-stack"><i class="fas fa-phone-alt"></i></span>
-    <span>+44 7783 381233</span>
+  <!-- Móvil -->
+  <a href="tel:+447783381233" class="icono-item" title="Teléfono">
+    <i class="fas fa-phone-alt"></i>
   </a>
 </div>
 
-<div class="intro-subtitulo">Desarrollo soluciones de movilidad basadas en datos</div>
+<div class="intro-subtitulo">Desarrollo soluciones de transporte y movilidad basadas en datos</div>
 
 <p class="intro-descripcion">
 Ingeniero civil con especialización en planificación de transporte y medio ambiente. Cuento con 3 años de experiencia en el uso de herramientas para analizar datos de transporte complejos y transformarlos en tomas de decisiones eficientes.
