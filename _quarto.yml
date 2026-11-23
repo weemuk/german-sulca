@@ -3,28 +3,20 @@ project:
   output-dir: docs
 
 website:
-  title: "German Sulca - Portfolio"
+  title: "German Sulca"
   navbar:
-    left:
-      - href: index.qmd
-        text: Home
-      - menu:
-          - text: "CV English version"
-            href: cv/cv_German_EN.pdf
-          - text: "CV Versión en español"
-            href: cv/cv_German_ES.pdf
-          - text: "Shaping Future Transport Systems"
-            href: shaping/shaping.qmd
-          - text: "Transport Data Science"
-            href: data-science/tds.qmd
-          - text: "Sustainable Spatial Planning and Analysis"
-            href: spatial-analysis/sspa.qmd
-          - text: "Air Quality Policy Design and Evaluation"
-            href: air-quality/aq.qmd            
-
+    background: "#0a192f"
+    foreground: "#ccd6f6"
+    right:
+      - text: "LinkedIn"
+        href: https://www.linkedin.com/in/german-sulca/
+      - text: "GitHub"
+        href: https://github.com/weemuk
+      - text: "Correo"
+        href: mailto:germand.sulcap@gmail.com
 
 format:
   html:
     theme: cosmo
-    toc: true
-    code-fold: true
+    css: styles.css
+    toc: false

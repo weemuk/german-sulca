@@ -1,18 +1,27 @@
 ---
-title: "German Sulca - Portfolio"
+title: ""
+format: html
 ---
 
-Ingeniero de transporte con 3 años de experiencia en el desarrollo de soluciones de movilidad urbana basadas en datos. Experto en el uso de herramientas para analizar datos de transporte complejos y transformarlos en tomas de decisiones eficientes. Metódico en la resolución de problemas, con habilidades comunicativas y capacidad para colaborar eficazmente en la elaboración de documentación técnica y en el apoyo a mejoras de políticas fundamentadas en evidencias.
+<div style="max-width: 800px; margin-top: 3rem; margin-bottom: 4rem;">
 
-# Curriculum Vitae | Resume
+<p class="intro-saludo">Hola, mi nombre es</p>
+<div class="intro-nombre">German Sulca</div>
+<div class="intro-subtitulo">Desarrollo soluciones de movilidad basadas en datos.</div>
+
+<p style="font-size: 1.1rem; max-width: 650px; margin-top: 1.5rem;">
+Ingeniero civil con especialización en planificación de transporte y medio ambiente. Cuento con 3 años de experiencia en el uso de herramientas para analizar datos de transporte complejos y transformarlos en tomas de decisiones eficientes.
+</p>
+
+</div>
+
+# 01. Curriculum Vitae | Resume
 
 [English version (.pdf)](cv/cv_German_EN.pdf) | [Versión en español (.pdf)](cv/cv_German_ES.pdf)
 
-#  Experiencia Laboral y Académica Previa
+# [02. Experiencia Laboral y Académica Previa](cv/Presentacion.pdf)
 
-[Presentación](cv/Presentacion.pdf)
-
-# Módulos de MSc Transport Planning and the Environment
+# 03. Módulos de MSc Transport Planning and the Environment
 
 ## Transport Data Science
 
