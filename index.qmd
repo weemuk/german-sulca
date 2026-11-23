@@ -34,7 +34,8 @@ format: html
     <span class="fa-stack"><i class="fas fa-phone-alt"></i></span>
     <span>+44 7783 381233</span>
   </a>
-  
+</div>
+
 <div class="intro-subtitulo">Desarrollo soluciones de movilidad basadas en datos</div>
 
 <p style="font-size: 1.1rem; max-width: 650px; margin-top: 1.5rem;">
