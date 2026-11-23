@@ -28,10 +28,10 @@ Ingeniero civil con especialización en planificación de transporte y medio amb
 </div>
 
 <!-- Botones de CV y Presentación -->
-<div class="botones-fila">
+<div>
   <a href="cv/cv_German_ES.pdf" target="_blank" class="btn-portfolio">CV Español (.pdf)</a>
   <a href="cv/cv_German_EN.pdf" target="_blank" class="btn-portfolio">CV Inglés (.pdf)</a>
-  <a href="cv/Presentacion.pdf" target="_blank" class="btn-portfolio">Presentación y Experiencia (.pdf)</a>
+  <a href="cv/Presentacion.pdf" target="_blank" class="btn-portfolio">Experiencia (.pdf)</a>
 </div>
 
 # Proyectos de MSc Transport Planning and the Environment
