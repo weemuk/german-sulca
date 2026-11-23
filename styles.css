@@ -114,19 +114,6 @@ a:hover {
   transition: all 0.2s ease-in-out;
 }
 
-/* Círculo contenedor del icono */
-.icono-item .fa-stack {
-  width: 2em;
-  height: 2em;
-  line-height: 2em;
-  background-color: rgba(100, 255, 218, 0.05);
-  border: 1px solid rgba(100, 255, 218, 0.3);
-  border-radius: 50%;
-  text-align: center;
-  color: #64ffda;
-  transition: all 0.2s ease-in-out;
-}
-
 /* Efecto hover (al pasar el cursor) */
 .icono-item:hover {
   background-color: rgba(100, 255, 218, 0.15);
