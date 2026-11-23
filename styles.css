@@ -95,31 +95,48 @@ a:hover {
   transform: translateY(-2px);
 }
 
-/* Contenedor horizontal para los botones */
-.botones-fila {
+/* Contenedor para los iconos de contacto */
+.contacto-iconos {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap; /* Permite que se ajusten solo si la pantalla es de celular muy pequeño */
-  gap: 1rem; /* Espacio uniforme entre cada botón */
-  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.25rem;
   margin-top: 1.5rem;
+  margin-bottom: 2.5rem;
+  align-items: center;
 }
 
-/* Ajuste del botón dentro de la fila */
-.btn-portfolio {
-  display: inline-block;
-  color: #64ffda !important;
-  border: 1px solid #64ffda;
-  border-radius: 4px;
-  padding: 0.65rem 1.25rem;
+/* Estilo individual de cada enlace con icono */
+.icono-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #8892b0 !important;
   font-family: monospace;
   font-size: 0.9rem;
   text-decoration: none !important;
-  white-space: nowrap; /* Evita que el texto del botón se parta en dos líneas */
-  transition: background-color 0.2s ease-in-out, transform 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
-.btn-portfolio:hover {
-  background-color: rgba(100, 255, 218, 0.1);
+/* Círculo contenedor del icono */
+.icono-item .fa-stack {
+  width: 2em;
+  height: 2em;
+  line-height: 2em;
+  background-color: rgba(100, 255, 218, 0.05);
+  border: 1px solid rgba(100, 255, 218, 0.3);
+  border-radius: 50%;
+  text-align: center;
+  color: #64ffda;
+  transition: all 0.2s ease-in-out;
+}
+
+/* Efecto hover (al pasar el cursor) */
+.icono-item:hover {
+  color: #64ffda !important;
+}
+
+.icono-item:hover .fa-stack {
+  background-color: rgba(100, 255, 218, 0.15);
+  border-color: #64ffda;
   transform: translateY(-2px);
 }

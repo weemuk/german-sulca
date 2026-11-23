@@ -3,20 +3,17 @@ project:
   output-dir: docs
 
 website:
-  title: "Portfolio"
+  title: "Modelización de Transporte | Movilidad Urbana Sostenible | Ciencia de Datos"
   navbar:
     background: "#0a192f"
     foreground: "#ccd6f6"
-    right:
-      - text: "LinkedIn"
-        href: https://www.linkedin.com/in/german-sulca/
-      - text: "GitHub"
-        href: https://github.com/weemuk
-      - text: "Correo"
-        href: mailto:germand.sulcap@gmail.com
+    # Puedes dejar la barra superior vacía o solo con tu nombre
 
 format:
   html:
     theme: cosmo
     css: styles.css
     toc: false
+    include-in-header:
+      - text: |
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">

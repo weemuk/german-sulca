@@ -6,8 +6,36 @@ format: html
 <div style="max-width: 800px; margin-top: 3rem; margin-bottom: 4rem;">
 
 <p class="intro-saludo">Hola, mi nombre es</p>
+
 <div class="intro-nombre">Germán Sulca</div>
-<div class="intro-subtitulo">Desarrollo soluciones de movilidad basadas en datos</div>
+
+<!-- 4 Iconos de Contacto Debajo de la Presentación -->
+<div class="contacto-iconos">
+  <!-- LinkedIn -->
+  <a href="https://www.linkedin.com/in/german-sulca" target="_blank" class="icono-item">
+    <span class="fa-stack"><i class="fab fa-linkedin-in"></i></span>
+    <span>LinkedIn</span>
+  </a>
+
+  <!-- GitHub -->
+  <a href="https://github.com/weemuk" target="_blank" class="icono-item">
+    <span class="fa-stack"><i class="fab fa-github"></i></span>
+    <span>GitHub</span>
+  </a>
+
+  <!-- Mail -->
+  <a href="mailto:germand.sulcap@gmail.com" class="icono-item">
+    <span class="fa-stack"><i class="fas fa-envelope"></i></span>
+    <span>germand.sulcap@gmail.com</span>
+  </a>
+
+  <!-- Móvil -->
+  <a href="tel:+447783381233" class="icono-item">
+    <span class="fa-stack"><i class="fas fa-phone-alt"></i></span>
+    <span>+44 7783 381233</span>
+  </a>
+  
+<div class="intro-subtitulo">Desarrollo soluciones de movilidad basadas en datos
 
 <p style="font-size: 1.1rem; max-width: 650px; margin-top: 1.5rem;">
 Ingeniero civil con especialización en planificación de transporte y medio ambiente. Cuento con 3 años de experiencia en el uso de herramientas para analizar datos de transporte complejos y transformarlos en tomas de decisiones eficientes.
