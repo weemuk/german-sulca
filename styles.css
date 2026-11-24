@@ -121,3 +121,44 @@ a:hover {
   transform: translateY(-2px);
   color: #64ffda !important;
 }
+
+/* Compact single-line table formatting */
+.compact-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.compact-table th {
+  text-align: center !important;
+  vertical-align: middle !important;
+  line-height: 1.3;
+  padding: 0.6rem 0.5rem;
+}
+
+.compact-table td {
+  white-space: nowrap !important;
+  padding: 0.5rem 0.6rem;
+}
+
+/* Fix white background boxes on references and bibliographies */
+#refs, 
+.references, 
+.csl-bib-body, 
+.csl-entry {
+  background-color: transparent !important;
+  color: #8892b0 !important;
+}
+
+/* High-specificity override for Quarto bibliography and reference links */
+div#refs a, 
+.references a, 
+.csl-entry a {
+  color: #64ffda !important;
+  text-decoration: none; /* optional: removes underline if desired */
+}
+
+div#refs a:hover, 
+.references a:hover, 
+.csl-entry a:hover {
+  color: #5218d3 !important; /* optional hover color adjustment */
+}

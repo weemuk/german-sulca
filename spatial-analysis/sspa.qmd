@@ -12,23 +12,38 @@ execute:
 bibliography: references.bib
 ---
 
-# Overview
+## Overview
 
 Active travel infrastructure in the Lima Metropolitan Area is characterized by a severe socio-spatial divide. While central districts benefit from connected cycle networks and flat terrain, peripheral areas endure a lack of infrastructure, steep topography, and high traffic stress [@guzman2017]. This report develops a Bikeability Index to quantify this inequity and evaluate proposed municipal cycling projects.
 
 ![Figure 1: Study Area - Metropolitan Area of Lima](images/figure-1.png){fig-align="center"}
 
-# Methodology
+## Methodology
 
 The study employs a grid-based Spatial Multi-Criteria Analysis (SMCA) mapped over 100 x 100 m cells within Lima's inhabited urban boundary. The index integrates five spatial variables, calculating localized values within a 250 m catchment buffer representing the average acceptable cycling detour [@krenn2015].
 
 To create a unified Bikeability Index, the raw data for these five variables was categorized into a discrete 1 to 10 scale (where 10 indicates high bikeability) based on statistical deciles [@winters2013; @santos2022].
 
-Abridged Variable Classification Framework:
+Variable Classification Framework:
 
-![Figure 2: Classification of the 5 variables in deciles (1: low bikeability, 10: high bikeability)](images/figure-2.png){fig-align="center"}
+::: {.compact-table}
 
-# Key Findings: The Socio-Spatial Gap
+| Scores | Cycling infrastructure<br>(m) | Traffic Stress<br>(m) | Environment<br>(m²) | POIs<br>(points) | Topography<br>(%) |
+| :---: | :--- | :--- | :--- | :--- | :---: |
+| 1 | 0 - 90 | 1753 - 2529 | 0 - 2145 | 0 - 0.3 | > 9.00 % |
+| 2 | 90 - 264 | 1132 - 1753 | 2145 - 6873 | 0.3 - 1 | - |
+| 3 | 264 - 417 | 877 - 1132 | 6873 - 12525 | 1 - 1.8 | 7.00 - 9.00 % |
+| 4 | 417 - 595 | 714 - 877 | 12525 - 19060 | 1.8 - 2.75 | - |
+| 5 | 595 - 817 | 561 - 714 | 19060 - 26981 | 2.75 - 3.9 | 5.00 - 7.00 % |
+| 6 | 817 - 1057 | 444 - 561 | 26981 - 38476 | 3.9 - 5.45 | - |
+| 7 | 1057 - 1351 | 346 - 444 | 38476 - 58303 | 5.45 - 7.7 | 3.00 - 5.00 % |
+| 8 | 1351 - 1769 | 228 - 346 | 58303 - 88624 | 7.7 - 11.35 | - |
+| 9 | 1769 - 2503 | 81 - 228 | 88624 - 135434 | 11.35 - 19.05 | - |
+| 10 | 2503 - 3863 | 0 - 81 | 135434 - 196091 | 19.05 - 25.95 | < 3.00% |
+
+:::
+
+## Key Findings: The Socio-Spatial Gap
 
 The resulting index reveals that optimal cycling conditions, defined as scores between 6 and 8, are heavily concentrated in the flat, well-connected 'Centric Lima' area. Conversely, urban peripheries present highly unfavorable environments for active travel modes due to moderate slopes and arterial road traffic.
 
@@ -40,12 +55,12 @@ By integrating 2021 population data, the severity of this inequity becomes quant
 
 -   Only a minority of the population (around 12%) resides in areas considered accessible for cycling (scores of 6 to 8).
 
-# Policy Implications & Limitations
+## Policy Implications & Limitations
 
 An analysis of the Metropolitan Municipality of Lima's future cycle infrastructure projects indicates a continued focus on improving connectivity within the already dense central districts. This approach will inadvertently continue to marginalise peripheral areas that possess high destination density (POIs) but lack dedicated infrastructure. The report recommends shifting from a coverage-based metric to an accessibility-based metric that prioritises these underserved peripheral zones.
 
-# Conclusions
+## Conclusions
 
 Finally, the report acknowledges methodological limitations [@arellana2020; @cervero2009; @lu2018], most notably the exclusion of a personal safety variable. In the Latin American context, the perceived risk of street crime is a critical determinant in active travel behavior, which may negatively offset the benefits of segregated cycle lanes. Additionally, utilizing park area as an environmental proxy fails to account for the quality of shading and thermal comfort provided by trees.
 
-# References
+## References

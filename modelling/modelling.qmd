@@ -1,0 +1,122 @@
+---
+title: "Transport Modelling"
+subtitle: "Evaluation of land-use policy: A comparative analysis of Delft city scenarios by 2030"
+author: "weemuk"
+format: 
+  html:
+    embed-resources: true
+execute: 
+  message: false
+  warning: false
+  echo: false
+bibliography: references.bib
+---
+
+## Background and Objectives
+
+Urban and transport planning in Delft faces a choice between a 'compact city' model (scenario S1), which seeks high-density development, and a 'decentralisation' model (scenario S2), which aims to reduce congestion by using peripheral traffic capacity. With forecasted population growth (0.75% annually) and economic expansion (1% annually), local authorities must decide whether to accommodate this demand within the existing areas and network of Delft or to approve a major decentralised development in two new residential and employment zones (Zones 24 and 25).
+
+The modelling process relies on the principle of 'derived demand', as people travel to satisfy a requirement (Ortúzar and Willumsen, 2024), meaning transport is a consequence of the separation between daily activities. Traffic flows observed in this study are treated as a direct function of socio-economic attributes (such as residents, jobs, research, and education) assigned to each zone. The model assumes that drivers in 2030 will "select a route so as to minimize their personal travel time between the origin and destination" (Mannering, 2020) to reduce their individual generalised cost. This equilibrium state allows for a robust comparison of network performance.
+
+## Methodology
+
+The study uses OmniTRANS software to perform the Four Stage Model (FSM):
+
+* **Trip generation:** Zonal productions ($P_i$) and attractions ($A_i$) were calculated using linear regression equations based on four independent variables: residents, jobs, research, and education for 2017 and 2030. 
+* **Distribution and modal split:** Gravity model parameters calibrated for the 2017 scenario were held constant for the 2030 scenarios. 
+* **Assignment:** A car deterministic user equilibrium assignment was performed to simulate route choices and reduce generalised costs.
+
+## Key Findings: Macroscopic Network Efficiency
+
+Developing new zones brings an improvement in network efficiency. Scenario S1 results in a higher congested network with a system Vehicle Travel Time (VTT) of 39,788 hours compared to Scenario S2, which results in a reduction of VTT to 37,973 hours. This leads to a significant saving of 4.56% (around 1,815 vehicle-hours in the peak hour). 
+
+However, this improvement comes with a trade-off, because system Vehicle Kilometres Travelled (VKT) increases by 0.85% in Scenario S2 (from 466,647 to 470,635 km). Although this increase is small, it shows that decentralisation reduces congestion intensity in the city centre but increases trip distances required to access activities (Banister, 2007).
+
+::: {.compact-table}
+
+| Metric | Base Scenario 2017 | Scenario S1 | Scenario S2 |
+| :--- | :--- | :--- | :--- |
+| **Total Trips** | 54,479 | 62,953 | 63,779 |
+| **Total VKT (km)** | 394,015 | 466,648 | 470,636 |
+| **Total VTT (hr)** | 19,251 | 39,788 | 37,973 |
+| **Avg. Network Speed (km/h)** | 20.47 | 11.73 | 12.39 |
+| **Avg. Trip Distance (km)** | 7.23 | 7.41 | 7.38 |
+| **Avg. Trip Time (min)** | 21.20 | 37.92 | 35.72 |
+
+: Network performance indicators for each scenario {#tbl-network-indicators}
+
+:::
+
+## Key Findings: Spatial Redistribution of Flow
+
+By comparing flows generated in each scenario, it is possible to visualise the reorganisation of vehicular flows. 
+
+![Figure 1: Flow difference plot (S2 - S1)](images/figure-1.png){fig-align="center"}
+
+### Relief in the City Centre
+Blue bandwidths in the flow difference map demonstrate that Scenario S2 achieves its objective to relieve the city centre. By relocating future growth to newly developed zones, this scenario reduces traffic from the internal network of the city centre. For example, local roads like *Kanaalweg* and *Provincialeweg* show a reduction in flow, dropping by 42.38% and 37.60% respectively, relieving key arterial roads.
+
+### Utilisation of Highway Capacity
+Red bandwidths indicate that traffic has not disappeared; instead, it has moved to the periphery. The A13 North freeway acts as the primary access corridor for new zones in Scenario S2, where traffic flow increases by 28.83% (from $4,749\text{ veh/hr}$ to $6,118\text{ veh/hr}$ in the peak hour). However, this increase is efficiently absorbed: the Volume Capacity Ratio (VCR) only increases from an underutilised 0.49 to 0.64. Consequently, the A4 North freeway improves: its VCR drops from a congested 1.01 down to 0.89.
+
+## Key Findings: The "Dormitory" Effect
+
+While development in Scenario S2 may appear positive, a diagnostic of the Origin-Destination (OD) matrix reveals a negative consequence on land-use planning policy. Scenario S2 designates Zone 24 as a residential development (18,000 residents) and Zone 25 as an employment development (4,000 jobs). 
+
+::: {.compact-table}
+
+| Summary by Scenario and Road Type | Sum of Length (km) | Sum of Load (veh/hr) | Sum of Cost (hr) | Travel Distance (veh-km) | Travel Time (veh-hr) | Network Av. Speed (km/hr) |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: |
+| **2017** | 303.65 | 1,335,801.63 | 12.82 | 394,014.65 | 19,251.21 | 20.5 |
+| Connector mixed traffic (\*) | 23.24 | 108,202.84 | 1.55 | 47,485.11 | 3,165.67 | 15.0 |
+| Freeway 2 | 14.78 | 120,436.97 | 0.19 | 52,590.25 | 721.59 | 72.9 |
+| Freeway 3 | 17.39 | 255,892.62 | 0.23 | 94,492.11 | 1,326.29 | 71.2 |
+| Freeway 4 | 1.86 | 68,722.89 | 0.02 | 10,720.46 | 118.27 | 90.6 |
+| Highway closed for slow traffic | 25.06 | 140,929.98 | 0.93 | 43,815.14 | 2,648.95 | 16.5 |
+| Highway with bicycle track | 21.68 | 95,511.12 | 0.57 | 29,673.41 | 1,183.18 | 25.1 |
+| Local road mixed traffic | 154.65 | 263,008.89 | 7.29 | 62,686.98 | 6,473.90 | 9.7 |
+| Local road with cycle track | 17.44 | 74,769.20 | 1.00 | 16,403.32 | 1,707.33 | 9.6 |
+| Main road with cycle track | 27.54 | 208,327.12 | 1.04 | 36,147.86 | 1,906.03 | 19.0 |
+| **2030 Scenario S1** | 303.65 | 1,591,303.83 | 19.52 | 466,647.60 | 39,788.33 | 11.7 |
+| Connector mixed traffic (\*) | 23.24 | 124,965.37 | 1.55 | 53,215.93 | 3,547.73 | 15.0 |
+| Freeway 2 | 14.78 | 141,564.66 | 0.22 | 61,510.13 | 1,037.33 | 59.3 |
+| Freeway 3 | 17.39 | 291,478.74 | 0.26 | 106,908.49 | 1,737.67 | 61.5 |
+| Freeway 4 | 1.86 | 78,387.57 | 0.02 | 12,211.16 | 142.66 | 85.6 |
+| Highway closed for slow traffic | 25.06 | 156,658.19 | 1.30 | 48,676.40 | 4,560.50 | 10.7 |
+| Highway with bicycle track | 21.68 | 111,939.92 | 0.79 | 35,199.46 | 2,139.80 | 16.4 |
+| Local road mixed traffic | 154.65 | 350,363.15 | 12.24 | 86,281.46 | 19,127.91 | 4.5 |
+| Local road with cycle track | 17.44 | 89,371.59 | 1.65 | 19,925.44 | 3,902.22 | 5.1 |
+| Main road with cycle track | 27.54 | 246,574.64 | 1.49 | 42,719.13 | 3,592.52 | 11.9 |
+| **2030 Scenario S2** | 311.67 | 1,618,260.31 | 19.14 | 470,635.64 | 37,973.11 | 12.4 |
+| Connector mixed traffic (\*) | 24.57 | 126,748.89 | 1.64 | 53,062.05 | 3,537.47 | 15.0 |
+| Freeway 2 | 14.78 | 134,705.15 | 0.20 | 58,537.89 | 873.98 | 67.0 |
+| Freeway 3 | 17.39 | 304,032.05 | 0.27 | 112,519.54 | 1,873.56 | 60.1 |
+| Freeway 4 | 1.86 | 87,090.28 | 0.02 | 13,546.14 | 162.59 | 83.3 |
+| Highway closed for slow traffic | 25.06 | 165,383.08 | 1.28 | 51,432.48 | 4,387.77 | 11.7 |
+| Highway with bicycle track | 10.35 | 59,554.64 | 0.35 | 14,556.54 | 866.62 | 16.8 |
+| Local road mixed traffic | 156.64 | 327,529.35 | 10.20 | 80,195.10 | 13,578.83 | 5.9 |
+| Local road with cycle track | 22.14 | 111,380.22 | 3.24 | 26,395.20 | 8,443.50 | 3.1 |
+| Main road with cycle track | 38.86 | 301,836.65 | 1.93 | 60,390.70 | 4,248.80 | 14.2 |
+| **Difference (S1 vs S2)** | — | — | 1.69% | -1.96% | 0.85% | -4.56% | 5.68% |
+
+: Appendix H: Car deterministic user equilibrium summary results from OmniTRANS {#tbl-appendix-h}
+
+:::
+
+Around 55% of trips (3,535 trips) generated by residential Zone 24 are destined for external zones (Zones 1 to 7), only 3% (213 trips) are destined for new developed zones, and 42% (2,644 trips) are destined for internal areas. Therefore, this residential zone functions as a 'dormitory' zone, where residents do not work in the nearby employment zone and commute larger distances—even out of the city entirely.
+
+## Limitations and Recommendations
+
+### Recommendation
+Based on the evaluation of impacts in Delft, it is recommended that local authorities **do not proceed** with the new residential and employment land-use policy from Scenario S2.
+
+### Justification & Limitations
+* **Baseline Comparison:** Scenario S2 does not solve network congestion, providing only a slight improvement over Scenario S1. Average network speeds drop to $12.39\text{ km/h}$ (an approximate 40% drop from 2017 conditions of $20.47\text{ km/h}$).
+* **Temporary Relief:** City centre relief is due to the displacement of residents to peripheral zones, risking uncontrolled urban growth and eventual peripheral gridlock.
+* **Sustainable Consequences:** Scenario S2 increases private car dependency, boosts system VKT by 0.85%, raises vehicle emissions, and induces irreversible demand.
+
+### Alternative and Complementary Suggestions
+* **Polycentric Mixed-Use:** Implement a polycentric mixed-use approach to create a better match between jobs and workers in urban space, mitigating excess commuting (Kim and Choi, 2019).
+* **Modal Shift Investment:** Redirect infrastructure budgets from peripheral land-use development into public transport and active travel improvements within the existing urban network, complemented by aggressive demand management (e.g., low emission zones, parking restrictions).
+
+## References
