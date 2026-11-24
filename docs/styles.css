@@ -40,7 +40,7 @@ a:hover {
 .intro-saludo {
   color: #64ffda;
   font-family: monospace;
-  font-size: 1.1rem;
+  font-size: 1rem;
   margin-bottom: 0.5rem;
 }
 
@@ -62,7 +62,7 @@ a:hover {
 }
 
 .intro-descripcion {
-  font-size: 1.1rem;
+  font-size: 0.8rem;
   max-width: 650px;
   margin-top: 0;
   margin-bottom: 1.5rem;

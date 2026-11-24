@@ -3,12 +3,9 @@ title: ""
 format: html
 ---
 
-:::::::: {style="max-width: 800px; margin-top: 3rem; margin-bottom: 4rem;"}
-<p class="intro-saludo">
-
+::: intro-saludo
 Hola, mi nombre es
-
-</p>
+:::
 
 ::: intro-nombre
 Germán Sulca
@@ -17,24 +14,30 @@ Germán Sulca
 <!-- Solo Iconos de Contacto justo debajo del nombre -->
 
 ::: contacto-iconos
-<!-- LinkedIn --> <a href="https://www.linkedin.com/in/german-sulca" target="_blank" class="icono-item" title="LinkedIn"> <i class="fab fa-linkedin-in"></i> </a>
+<!-- LinkedIn -->
 
-<!-- GitHub --> <a href="https://github.com/weemuk" target="_blank" class="icono-item" title="GitHub"> <i class="fab fa-github"></i> </a>
+<a href="https://www.linkedin.com/in/german-sulca" target="_blank" class="icono-item" title="LinkedIn"> <i class="fab fa-linkedin-in"></i> </a>
 
-<!-- Mail --> <a href="mailto:germand.sulcap@gmail.com" class="icono-item" title="Correo"> <i class="fas fa-envelope"></i> </a>
+<!-- GitHub -->
 
-<!-- Móvil --> <a href="tel:+447783381233" class="icono-item" title="Teléfono"> <i class="fas fa-phone-alt"></i> </a>
+<a href="https://github.com/weemuk" target="_blank" class="icono-item" title="GitHub"> <i class="fab fa-github"></i> </a>
+
+<!-- Mail -->
+
+<a href="mailto:germand.sulcap@gmail.com" class="icono-item" title="Correo"> <i class="fas fa-envelope"></i> </a>
+
+<!-- Móvil -->
+
+<a href="tel:+447783381233" class="icono-item" title="Teléfono"> <i class="fas fa-phone-alt"></i> </a>
 :::
 
 ::: intro-subtitulo
 Desarrollo soluciones de transporte y movilidad basadas en datos
 :::
 
-<p class="intro-descripcion">
-
+::: intro-descripcion
 Ingeniero civil con especialización en planificación de transporte y medio ambiente. Cuento con 3 años de experiencia en el uso de herramientas para analizar datos de transporte complejos y transformarlos en tomas de decisiones eficientes.
-
-</p>
+:::
 
 <!-- Tira de herramientas -->
 
@@ -49,7 +52,6 @@ VISSIM [\|]{style="color: #8892b0; margin: 0 6px;"} VISUM [\|]{style="color: #88
 <a href="cv/cv_German_ES.pdf" target="_blank" class="btn-portfolio">CV Español (.pdf)</a> <a href="cv/cv_German_EN.pdf" target="_blank" class="btn-portfolio">CV Inglés (.pdf)</a> <a href="cv/Presentacion.pdf" target="_blank" class="btn-portfolio">Experiencia (.pdf)</a>
 
 </div>
-::::::::
 
 # Proyectos de MSc Transport Planning and the Environment
 
