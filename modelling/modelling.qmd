@@ -22,51 +22,50 @@ The modelling process relies on the principle of 'derived demand', as people tra
 
 The study uses OmniTRANS software to perform the Four Stage Model (FSM):
 
-* **Trip generation:** Zonal productions ($P_i$) and attractions ($A_i$) were calculated using linear regression equations based on four independent variables: residents, jobs, research, and education for 2017 and 2030. 
-* **Distribution and modal split:** Gravity model parameters calibrated for the 2017 scenario were held constant for the 2030 scenarios. 
-* **Assignment:** A car deterministic user equilibrium assignment was performed to simulate route choices and reduce generalised costs.
+-   **Trip generation:** Zonal productions ($P_i$) and attractions ($A_i$) were calculated using linear regression equations based on four independent variables: residents, jobs, research, and education for 2017 and 2030.
+-   **Distribution and modal split:** Gravity model parameters calibrated for the 2017 scenario were held constant for the 2030 scenarios.
+-   **Assignment:** A car deterministic user equilibrium assignment was performed to simulate route choices and reduce generalised costs.
 
 ## Key Findings: Macroscopic Network Efficiency
 
-Developing new zones brings an improvement in network efficiency. Scenario S1 results in a higher congested network with a system Vehicle Travel Time (VTT) of 39,788 hours compared to Scenario S2, which results in a reduction of VTT to 37,973 hours. This leads to a significant saving of 4.56% (around 1,815 vehicle-hours in the peak hour). 
+Developing new zones brings an improvement in network efficiency. Scenario S1 results in a higher congested network with a system Vehicle Travel Time (VTT) of 39,788 hours compared to Scenario S2, which results in a reduction of VTT to 37,973 hours. This leads to a significant saving of 4.56% (around 1,815 vehicle-hours in the peak hour).
 
 However, this improvement comes with a trade-off, because system Vehicle Kilometres Travelled (VKT) increases by 0.85% in Scenario S2 (from 466,647 to 470,635 km). Although this increase is small, it shows that decentralisation reduces congestion intensity in the city centre but increases trip distances required to access activities (Banister, 2007).
 
-::: {.compact-table}
-
-| Metric | Base Scenario 2017 | Scenario S1 | Scenario S2 |
-| :--- | :--- | :--- | :--- |
-| **Total Trips** | 54,479 | 62,953 | 63,779 |
-| **Total VKT (km)** | 394,015 | 466,648 | 470,636 |
-| **Total VTT (hr)** | 19,251 | 39,788 | 37,973 |
-| **Avg. Network Speed (km/h)** | 20.47 | 11.73 | 12.39 |
-| **Avg. Trip Distance (km)** | 7.23 | 7.41 | 7.38 |
-| **Avg. Trip Time (min)** | 21.20 | 37.92 | 35.72 |
+::: compact-table
+| Metric                        | Base Scenario 2017 | Scenario S1 | Scenario S2 |
+|:------------------------------|:-------------------|:------------|:------------|
+| **Total Trips**               | 54,479             | 62,953      | 63,779      |
+| **Total VKT (km)**            | 394,015            | 466,648     | 470,636     |
+| **Total VTT (hr)**            | 19,251             | 39,788      | 37,973      |
+| **Avg. Network Speed (km/h)** | 20.47              | 11.73       | 12.39       |
+| **Avg. Trip Distance (km)**   | 7.23               | 7.41        | 7.38        |
+| **Avg. Trip Time (min)**      | 21.20              | 37.92       | 35.72       |
 
 : Network performance indicators for each scenario {#tbl-network-indicators}
-
 :::
 
 ## Key Findings: Spatial Redistribution of Flow
 
-By comparing flows generated in each scenario, it is possible to visualise the reorganisation of vehicular flows. 
+By comparing flows generated in each scenario, it is possible to visualise the reorganisation of vehicular flows.
 
-![Figure 1: Flow difference plot (S2 - S1)](images/figure-1.png){fig-align="center"}
+![Figure 1: Flow difference plot (S2 - S1)](images/figure-1.jpg){fig-align="center"}
 
 ### Relief in the City Centre
+
 Blue bandwidths in the flow difference map demonstrate that Scenario S2 achieves its objective to relieve the city centre. By relocating future growth to newly developed zones, this scenario reduces traffic from the internal network of the city centre. For example, local roads like *Kanaalweg* and *Provincialeweg* show a reduction in flow, dropping by 42.38% and 37.60% respectively, relieving key arterial roads.
 
 ### Utilisation of Highway Capacity
+
 Red bandwidths indicate that traffic has not disappeared; instead, it has moved to the periphery. The A13 North freeway acts as the primary access corridor for new zones in Scenario S2, where traffic flow increases by 28.83% (from $4,749\text{ veh/hr}$ to $6,118\text{ veh/hr}$ in the peak hour). However, this increase is efficiently absorbed: the Volume Capacity Ratio (VCR) only increases from an underutilised 0.49 to 0.64. Consequently, the A4 North freeway improves: its VCR drops from a congested 1.01 down to 0.89.
 
 ## Key Findings: The "Dormitory" Effect
 
-While development in Scenario S2 may appear positive, a diagnostic of the Origin-Destination (OD) matrix reveals a negative consequence on land-use planning policy. Scenario S2 designates Zone 24 as a residential development (18,000 residents) and Zone 25 as an employment development (4,000 jobs). 
+While development in Scenario S2 may appear positive, a diagnostic of the Origin-Destination (OD) matrix reveals a negative consequence on land-use planning policy. Scenario S2 designates Zone 24 as a residential development (18,000 residents) and Zone 25 as an employment development (4,000 jobs).
 
-::: {.compact-table}
-
+::: compact-table
 | Summary by Scenario and Road Type | Sum of Length (km) | Sum of Load (veh/hr) | Sum of Cost (hr) | Travel Distance (veh-km) | Travel Time (veh-hr) | Network Av. Speed (km/hr) |
-| :--- | :---: | :---: | :---: | :---: | :---: | :---: |
+|:----------|:---------:|:---------:|:---------:|:---------:|:---------:|:---------:|
 | **2017** | 303.65 | 1,335,801.63 | 12.82 | 394,014.65 | 19,251.21 | 20.5 |
 | Connector mixed traffic (\*) | 23.24 | 108,202.84 | 1.55 | 47,485.11 | 3,165.67 | 15.0 |
 | Freeway 2 | 14.78 | 120,436.97 | 0.19 | 52,590.25 | 721.59 | 72.9 |
@@ -97,10 +96,9 @@ While development in Scenario S2 may appear positive, a diagnostic of the Origin
 | Local road mixed traffic | 156.64 | 327,529.35 | 10.20 | 80,195.10 | 13,578.83 | 5.9 |
 | Local road with cycle track | 22.14 | 111,380.22 | 3.24 | 26,395.20 | 8,443.50 | 3.1 |
 | Main road with cycle track | 38.86 | 301,836.65 | 1.93 | 60,390.70 | 4,248.80 | 14.2 |
-| **Difference (S1 vs S2)** | — | — | 1.69% | -1.96% | 0.85% | -4.56% | 5.68% |
+| **Difference (S1 vs S2)** | — | — | 1.69% | -1.96% | 0.85% | -4.56% |
 
 : Appendix H: Car deterministic user equilibrium summary results from OmniTRANS {#tbl-appendix-h}
-
 :::
 
 Around 55% of trips (3,535 trips) generated by residential Zone 24 are destined for external zones (Zones 1 to 7), only 3% (213 trips) are destined for new developed zones, and 42% (2,644 trips) are destined for internal areas. Therefore, this residential zone functions as a 'dormitory' zone, where residents do not work in the nearby employment zone and commute larger distances—even out of the city entirely.
@@ -108,15 +106,18 @@ Around 55% of trips (3,535 trips) generated by residential Zone 24 are destined 
 ## Limitations and Recommendations
 
 ### Recommendation
+
 Based on the evaluation of impacts in Delft, it is recommended that local authorities **do not proceed** with the new residential and employment land-use policy from Scenario S2.
 
 ### Justification & Limitations
-* **Baseline Comparison:** Scenario S2 does not solve network congestion, providing only a slight improvement over Scenario S1. Average network speeds drop to $12.39\text{ km/h}$ (an approximate 40% drop from 2017 conditions of $20.47\text{ km/h}$).
-* **Temporary Relief:** City centre relief is due to the displacement of residents to peripheral zones, risking uncontrolled urban growth and eventual peripheral gridlock.
-* **Sustainable Consequences:** Scenario S2 increases private car dependency, boosts system VKT by 0.85%, raises vehicle emissions, and induces irreversible demand.
+
+-   **Baseline Comparison:** Scenario S2 does not solve network congestion, providing only a slight improvement over Scenario S1. Average network speeds drop to $12.39\text{ km/h}$ (an approximate 40% drop from 2017 conditions of $20.47\text{ km/h}$).
+-   **Temporary Relief:** City centre relief is due to the displacement of residents to peripheral zones, risking uncontrolled urban growth and eventual peripheral gridlock.
+-   **Sustainable Consequences:** Scenario S2 increases private car dependency, boosts system VKT by 0.85%, raises vehicle emissions, and induces irreversible demand.
 
 ### Alternative and Complementary Suggestions
-* **Polycentric Mixed-Use:** Implement a polycentric mixed-use approach to create a better match between jobs and workers in urban space, mitigating excess commuting (Kim and Choi, 2019).
-* **Modal Shift Investment:** Redirect infrastructure budgets from peripheral land-use development into public transport and active travel improvements within the existing urban network, complemented by aggressive demand management (e.g., low emission zones, parking restrictions).
+
+-   **Polycentric Mixed-Use:** Implement a polycentric mixed-use approach to create a better match between jobs and workers in urban space, mitigating excess commuting (Kim and Choi, 2019).
+-   **Modal Shift Investment:** Redirect infrastructure budgets from peripheral land-use development into public transport and active travel improvements within the existing urban network, complemented by aggressive demand management (e.g., low emission zones, parking restrictions).
 
 ## References
